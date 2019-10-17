@@ -9,7 +9,7 @@ pipeline {
          }
           stage('Deploy') {
             steps {
-                bat 'python helper.py'
+                bat 'python api_gateway.py'
 
             }
          }
